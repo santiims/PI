@@ -56,7 +56,7 @@ Sistēma ``Music Overflow'' ir lietotne, kura palīdz lietotājiem iegūt orģin
 \indent Rezultātā izstrādāta programmas prasības specifikācija, ar kuru palīdzību var izveidot funkcionējošo sistēmu ``Music Overflow''. \\
 \indent Darbs kopumā izklāstīts ... lappusēs, tajā iekļautas ... tabulas un ... diagrammas.  Darbā izmantoti ... literatūras avoti un pievienoti ... pielikumi.
 
-Atslēgas vārdi: mūzika, melodija
+Atslēgas vārdi: mūzika, melodija, dziesma.
 
 \pagebreak
 
@@ -71,16 +71,16 @@ Atslēgas vārdi: mūzika, melodija
 	\item Toms Bēmis
 \end{itemize}
 
-Project name: ``Music Overflow''\\
-Project type: Software Requirements Specification (SRS)\\
-Program: Computer Science\\
-Supervisor: Maksims Kravcevs\\
+\indent Project name: ``Music Overflow''\\
+\indent Project type: Software Requirements Specification (SRS)\\
+\indent Program: Computer Science\\
+\indent Supervisor: Maksims Kravcevs\\
 
 Goal of this project is to create a software requirements specification, which describes the system ``Music Overflow''. System ``Music Overflow'' is an application, which helps users to find the title of an original song, by knowing only the melody, by reading the guesses of other users. ``Music Overflow'' offers to create questions, in which it is possible to recreate a melody, which would give enough information about the original song, and to create original melodies to share and give comments about. System also stores user created melodies, data and links to the correct composition, if found.\\
 \indent The project consists of 3 parts. The first part consists of description of the system's users and it's design, limitations of the system, assumptions and dependencies. Second part consists of description of the database and functional and non-functional requirements for the system. Third part consists of database, function and user interface designs.\\
 \indent As a result a systems requirement specification has been designed, with which a functional system ``Music Overflow'' can be developed.\\
 \indent The project consists of ... pages, it has .. tables and ... diagrams. ... sources have been used and ... attachments added.\\
-\indent Keywords: music, melody
+\indent Keywords: music, melody, song.
 
 \pagebreak
 
@@ -94,7 +94,7 @@ Goal of this project is to create a software requirements specification, which d
 \textbf{Nolūks}
 
 Šī programmatūras prasību specifikācija (PPS) ir izstrādāta un paredzēta lietotnes „Music Overflow” prasību aprakstīšanai.
-Šī programmatūras prasību specifikācijas izstrādāšanas nolūks ir precīzi aprakstīt būtiskākās programmatūras darbības funkcijas, to prasības un iespējas, kā arī lietotāja saskarņu prasības, lai pēc specifikācijas izstrādes ir iespējama tālāka lietotnes galīgā izstrāde lietotājam izmantojamā veidā.
+Tās nolūks ir precīzi aprakstīt būtiskākās programmatūras darbības funkcijas, to prasības un iespējas, kā arī lietotāja saskarņu prasības, lai pēc specifikācijas izstrādes ir iespējama tālāka lietotnes galīgā izstrāde lietotājam izmantojamā veidā.
 Lietotnes nolūks ir palīdzēt atrast dziesmas nosaukumu, no kuras atceras tikai melodijas daļu.
 Atbilstoši šai specifikācijai tiks izstrādāta sistēma. Šis dokuments ir savstarpēja vienošanās starp pasūtītāju un izpildītāju. Šajā prasību specifikācijā tiek noformulētas sistēmas prasības un raksturota funkcionalitāte.
 
@@ -146,9 +146,9 @@ Uzturēt saiti starp sistēmas lietotājiem un informāciju mūzikas datubāzēs
 
 \subsection{Darījumprasības}
 \begin{itemize}
-\item Sniegt lietotājiem iespēju veidot jautājumus, kuros iespējams atdarināt mūzikas ierakstu, kas dod pietiekošu informāciju par orģinālo dziesmu
-\item Piedāvāt lietotājiem atrisināt citu lietotāju uzdotos jautājumus, lai veiksmīgi atrastu ieraksta autoru vai dziesmas nosaukumu
-\item Informēt lietotājus, ļaut tiem sazināties savā starpā un paziņot par veiksmīgi atrastu izpildītāju un dziesmu
+\item Sniegt lietotājiem iespēju veidot jautājumus, kuros iespējams atdarināt mūzikas ierakstu, kas dod pietiekošu informāciju par orģinālo dziesmu.
+\item Piedāvāt lietotājiem atrisināt citu lietotāju uzdotos jautājumus, lai veiksmīgi atrastu ieraksta autoru vai dziesmas nosaukumu.
+\item Informēt lietotājus, ļaut tiem sazināties savā starpā un paziņot par veiksmīgi atrastu izpildītāju un dziesmu.
 \item Dot iespēju mūzikas izpildītājiem tikt atpazītiem starp patērētājiem, neaizskarot autortiesības.
 \item Sniegt lietotājiem iespēju dalīties ar mūziku caur Facebook.
 \end{itemize}
@@ -299,7 +299,7 @@ Programmatūra tiks izstrādāta izmantojot ``Modelis-Skats-Kontrolieris'' proje
 \end{center}
 \end{figure}
 
-Lietotāju autorizācija programmā notiek izmantojot Facebook autorizāciju. Tas ļauj izvairīties no lietotāju paroļu uzglabāšanas, tādējādi uzlabojot programmatūŗas drošību. Tās darbības princips redzams ~\ref{fig:oauth_flow} attēlā.
+Lietotāju autorizācija programmā notiek izmantojot Facebook autorizāciju. Tas ļauj izvairīties no lietotāju paroļu uzglabāšanas, tādējādi uzlabojot programmatūŗas drošību. Tās darbības princips redzams ~\ref{fig:oauth_flow} diagrammā.
 
 \begin{figure}[H]
 \begin{center}
