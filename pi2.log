@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.1.26)  19 JAN 2020 13:54
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.6930 64-bit) (preloaded format=xelatex 2019.1.26)  19 JAN 2020 14:00
 entering extended mode
 **./pi2.tex
 (pi2.tex
@@ -619,9 +619,6 @@ File: Capture2.png Graphic file (type bmp)
 File: Capture1.png Graphic file (type bmp)
 <Capture1.png>
  [25] (pi2.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'pi2.run.xml'.
 \openout1 = `pi2.run.xml'.
 

@@ -53,5 +53,5 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Izmantotā literatūra un avoti}{22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\relax 4.}Pielikumi}{23}% 
+\contentsline {section}{Pielikumi}{23}% 
 \contentsfinish 
