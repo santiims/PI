@@ -1,0 +1,110 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{HTML}{online}{}
+    \keyw{HTML}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{HTML Standard}
+    \verb{url}
+    \verb https://html.spec.whatwg.org/multipage/
+    \endverb
+  \endentry
+
+  \entry{C2}{online}{}
+    \keyw{MVC}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{MVC history}
+    \verb{url}
+    \verb http://wiki.c2.com/?ModelViewControllerHistory
+    \endverb
+  \endentry
+
+  \entry{Oauth}{online}{}
+    \keyw{Authorization}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{Oauth 2.0 - Oauth}
+    \verb{url}
+    \verb https://oauth.net/2/
+    \endverb
+  \endentry
+
+  \entry{SQL}{online}{}
+    \keyw{SQL}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{SQL computer language Britannica}
+    \verb{url}
+    \verb https://www.britannica.com/technology/SQL
+    \endverb
+  \endentry
+
+  \entry{injection}{online}{}
+    \keyw{injection}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{SQL Injection}
+    \verb{url}
+    \verb https://www.w3schools.com/sql/sql_injection.asp
+    \endverb
+  \endentry
+
+  \entry{XSS}{online}{}
+    \keyw{XSS}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{The Web Application Security Consortium / Cross Site
+  Scripting}
+    \verb{url}
+    \verb http://projects.webappsec.org/w/page/13246920/Cross%20Site%20Scriptin
+    \verb g
+    \endverb
+  \endentry
+
+  \entry{URL}{online}{}
+    \keyw{URL}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{URL Standard}
+    \verb{url}
+    \verb https://url.spec.whatwg.org/
+    \endverb
+  \endentry
+
+  \entry{CSRF}{online}{}
+    \keyw{CSRF}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{What is CSRF?}
+    \verb{url}
+    \verb https://portswigger.net/web-security/csrf
+    \endverb
+  \endentry
+\enddatalist
+\endinput
