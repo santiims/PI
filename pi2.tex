@@ -8,6 +8,9 @@
 \usepackage[backend=bibtex]{biblatex}
 \usepackage{sectsty}
 \usepackage{biblatex}
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
 \addbibresource{references.bib}
 \sectionfont{\centering}
 \subsectionfont{\centering}
@@ -64,8 +67,8 @@
 
 Šī darba mērķis ir izveidot programmas prasības specifikāciju (PPS), kas apraksta sistēmu ``Music Overflow''.
 Sistēma ``Music Overflow'' ir lietotne, kura palīdz lietotājiem iegūt orģinālo dziesmas nosaukumu, ja ir zināma tikai melodija, uzklausot citu lietotāju minējumus. ``Music Overflow'' sniedz iespēju veidot jautājumus, kuros iespējams atdarināt melodiju, kas dotu pietiekošu informāciju par orģinālo dziesmu, kā arī apmainīties ar sevis radītām melodijām un komentāriem par tām. Sistēma arī glabā lietotāju ievadītās melodijas, datus un saites uz attiecīgo skaņdarbu, ja atrasts. \\
-\indent Darbs sastāv no 3 daļām. Tā pirmajā daļā ir sistēmas lietotāju apraksts un tās projektējums, sistēmas ierobežojumi, pieņēmumi un atkarības. Otrajā daļā ir datu bāzes apraksts un funkcionālās un nefunkcionālās prasības sistēmai. Trešajā daļā doti datu bāzes, funkciju, un lietotāja saskarņu projektējumi. \\
 \indent Rezultātā izstrādāta programmas prasības specifikācija, ar kuru palīdzību var izveidot funkcionējošo sistēmu ``Music Overflow''. \\
+\indent Darbs sastāv no 3 daļām. Tā pirmajā daļā ir sistēmas lietotāju apraksts un tās projektējums, sistēmas ierobežojumi, pieņēmumi un atkarības. Otrajā daļā ir datu bāzes apraksts un funkcionālās un nefunkcionālās prasības sistēmai. Trešajā daļā doti datu bāzes, funkciju, un lietotāja saskarņu projektējumi. \\
 \indent Darbs kopumā izklāstīts 25 lappusēs, tajā iekļautas 2 tabulas un 16 attēli.  Darbā izmantoti 8 literatūras avoti un pievienoti 3 pielikumi.
 
 Atslēgas vārdi: mūzika, melodija, dziesma.
@@ -80,8 +83,8 @@ Atslēgas vārdi: mūzika, melodija, dziesma.
 \indent Project type: Software Requirements Specification (SRS)\\
 
 Goal of this project is to create a software requirements specification, which describes the system ``Music Overflow''. System ``Music Overflow'' is an application, which helps users to find the title of an original song, by knowing only the melody, by reading the guesses of other users. ``Music Overflow'' offers to create questions, in which it is possible to recreate a melody, which would give enough information about the original song, and to create original melodies to share and give comments about. System also stores user created melodies, data and links to the correct composition, if found.\\
-\indent The project consists of 3 parts. The first part consists of description of the system's users and it's design, limitations of the system, assumptions and dependencies. Second part consists of description of the database and functional and non-functional requirements for the system. Third part consists of database, function and user interface designs.\\
 \indent As a result a systems requirement specification has been designed, with which a functional system ``Music Overflow'' can be developed.\\
+\indent The project consists of 3 parts. The first part consists of description of the system's users and it's design, limitations of the system, assumptions and dependencies. Second part consists of description of the database and functional and non-functional requirements for the system. Third part consists of database, function and user interface designs.\\
 \indent The project consists of 25 pages, it has 2 tables and 16 images. 8 sources have been used and 3 attachments added.\\
 \indent Keywords: music, melody, song.
 
@@ -113,10 +116,10 @@ Dokumenta noformēšanā ievērotas standarta LVS 68:1996 ``Programmatūras pras
 \textbf{Pārskats}\\
 Dokuments sastāv no ievada, 3 nodaļām un pielikumiem:
 \begin{itemize}
-\item Pirmajā nodaļā ir ievadinformācija, kas satur dokumenta nolūku, mērķi, definīciju skaidrojumu, citu dokumentu izmantošana dokumenta tapšanas laikā;
-\item Otrajā nodaļā tiek dots ieskats, par vispārējo produkta struktūru, kā funkcijas, ierobežojumi , kā arī atkarības, no citiem faktoriem;
-\item Trešajā nodaļā tiek norādītas funkcionālās prasības uz izstrādājamo programmu;
-\item Pielikumi sastāv no nodaļu papildinošas informācijas
+\item Pirmajā nodaļā tiek izklāstīts par vispārējo programmas aprakstu, esošo stāvokli, sistēmas ierobežojumiem, kā arī atkarības, no citiem faktoriem;
+\item Otrajā nodaļā tiek norādītas funkcionālās un nefunkcionālās prasības uz izstrādājamo programmu;
+\item Trešajā nodaļā ir dots programmatūras projektējuma apraksts, izklāstot to datu bāzes, funkciju un lietotāju saskarņu projektējumos;
+\item Pielikumi sastāv no nodaļu papildinošas informācijas.
 \end{itemize}
 
 \pagebreak
@@ -552,8 +555,9 @@ Mūzikas atdarinājuma apskatīšanas skatā (skat. ~\ref{fig:seemelody} attēlu
 
 \pagebreak
 
-\textbf{\large Pielikumi}
+\section{Pielikumi}
 
+\centering \textbf{Pielikums 1. ``Mūzikas atdarinājuma izveides PPS''}
 \begin{figure}[H]
 \begin{center}
 	\includegraphics[scale=0.8]{Capture3.png}
@@ -561,6 +565,9 @@ Mūzikas atdarinājuma apskatīšanas skatā (skat. ~\ref{fig:seemelody} attēlu
 \end{center}
 \end{figure}
 
+\pagebreak
+
+\centering \textbf{Pielikums 2. ``Jautājumu rekomendācijas PPS''}
 \begin{figure}[H]
 \begin{center}
 	\includegraphics[scale=0.8]{Capture2.png}
@@ -568,6 +575,9 @@ Mūzikas atdarinājuma apskatīšanas skatā (skat. ~\ref{fig:seemelody} attēlu
 \end{center}
 \end{figure}
 
+\pagebreak
+
+\centering \textbf{Pielikums 1. ``Atbilžu vērtēšanas PPS''}
 \begin{figure}[H]
 \begin{center}
 	\includegraphics[scale=0.8]{Capture1.png}

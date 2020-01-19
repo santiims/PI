@@ -52,4 +52,6 @@
 \contentsline {subsection}{\numberline {\relax 3.3.}Daļējs lietotāja saskarņu projektējums}{17}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Izmantotā literatūra un avoti}{22}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\relax 4.}Pielikumi}{23}% 
 \contentsfinish 
